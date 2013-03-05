@@ -37,8 +37,9 @@ body {
     width: 100px;
 }
 
-h1 {
+h1, h2, p {
     color: #eee;
+    font-weight: 400;
     text-shadow: #111 2px 2px 0;
 }
 
@@ -47,8 +48,23 @@ img {
 }
 
 p {
-    color: #fff;
     font-size: 1.5em;
     padding-top: 0;
-    text-shadow: #111 2px 2px 0;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #365158;
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    margin-bottom: 2px;
+    padding: 8px 15px;
+    text-align: left;
 }
