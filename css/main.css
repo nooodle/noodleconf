@@ -74,6 +74,6 @@ ul.sponsors li, ul.speakers li {
 }
 
 ul.sponsors li img, ul.speakers li img {
-    margin: 5px;
+    margin: 5px 10px;
     width: 100px;
 }
