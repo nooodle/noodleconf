@@ -40,7 +40,13 @@ body {
 h1, h2, p {
     color: #eee;
     font-weight: 400;
+    padding: 0 10px;
     text-shadow: #111 2px 2px 0;
+}
+
+h2 {
+    clear: both;
+    padding-top: 20px;
 }
 
 img {
@@ -70,10 +76,11 @@ ul.comments li {
 }
 
 ul.sponsors li, ul.speakers li {
-    float: left;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 ul.sponsors li img, ul.speakers li img {
-    margin: 5px 10px;
+    margin: 7px 7px;
     width: 100px;
 }
