@@ -80,7 +80,9 @@ ul {
     margin: 0 auto;
 }
 
-.sponsors img, .speakers img {
+.sponsors a, .speakers a {
+    display: inline-block;
     margin: 7px 7px;
     width: 100px;
 }
+
