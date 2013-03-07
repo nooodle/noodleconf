@@ -65,7 +65,7 @@ ul {
     width: 100%;
 }
 
-ul.comments li {
+.comments li {
     background-color: rgba(255, 255, 255, 0.5);
     color: #365158;
     font-family: Arial, sans-serif;
@@ -75,12 +75,12 @@ ul.comments li {
     text-align: left;
 }
 
-ul.sponsors li, ul.speakers li {
+.sponsors li, .speakers li {
     display: inline-block;
     margin: 0 auto;
 }
 
-ul.sponsors li img, ul.speakers li img {
+.sponsors img, .speakers img {
     margin: 7px 7px;
     width: 100px;
 }
