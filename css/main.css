@@ -37,11 +37,15 @@ body {
     width: 100px;
 }
 
-h1, h2, p {
+h1, h2, p, a {
     color: #eee;
-    font-weight: 400;
+    font-weight: 500;
     padding: 0 10px;
     text-shadow: #111 2px 2px 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 h2 {
