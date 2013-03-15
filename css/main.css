@@ -90,3 +90,6 @@ ul {
     width: 100px;
 }
 
+iframe {
+    overflow: hidden;
+}
